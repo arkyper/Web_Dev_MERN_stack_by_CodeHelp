@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Form></Form></title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+
+        <label for="selector1">Chose your Favourite: </label>
+            <select name="dishes" id="selector1">
+                <option value="maggie">Maggie</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="kitkat">Kitkat</option>
+            </select>
+
+            <select name="dishes" id="selector1" multiple>          <!-- will alllow to select Multiple-->
+                <option value="maggie">Maggie</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="kitkat">Kitkat</option>
+            </select>
+
+        <button name="submit" value="Submit"></button>
+        <!-- here same name wil help user to select only one Radio button at a time -->
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">Prefer not to Say</label>
+        
+        <label for="english">English: </label>
+        <input type="checkbox" id="english">
+        <label for="hindi">Hindi: </label>
+        <input type="checkbox" id="hindi">
+
+        <label for="fileupload">Upload </label>
+        <input type="file" name="fileupload id="fileupload>
+
+        <input type="image" src="img.jpg" alt="Cat Image" id="catimg">
+    </form>
+</body>
+</html>
