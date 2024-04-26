@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>Complex Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information </legend>
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email">
+
+            <label for="dob">Date of Birth </label>
+            <input type="date" name="dob" id="dob">
+
+            <label for="gender">Gender </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male </label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female </label>
+
+            <label for="country">Country </label>
+            <select name="country" id="country">
+                <option value="select" selected>Select one</option>        <!-- 'selected' for Default -->
+                <option value="india">India</option>
+                <option value="america">America</option>
+                <option value="japan">Japan</option>
+                <option value="russia">Russia</option>
+                <option value="germany">Germany</option>
+                <option value="canada">Canada</option>
+            </select>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Address </legend>
+            <label for="street">Street </label>
+            <input type="text" name="street" id="street">
+
+            <label for="city">City </label>
+            <input type="text" name="city" id="city">
+
+            <label for="state">State </label>
+            <input type="text" name="state" id="state">
+
+            <label for="zip">Zip Code </label>
+            <input type="number" name="zip" id="zip">   
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information </legend>
+            <label for="comments">Comments </label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <a href="#">I agree with you policy. </a>
+            <input type="checkbox">
+        </fieldset>
+        <button type="button" value="register">Submit</button>
+    </form>
+</body>
+</html>
